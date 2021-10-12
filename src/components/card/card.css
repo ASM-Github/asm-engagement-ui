@@ -1,0 +1,53 @@
+.aa-cards {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.aa-cards-title {
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.aa-cards-body {
+    padding: 1.5rem;
+}
+
+.aa-cards-desc {
+    font-size: 0.812rem;
+    font-weight: 400;
+    color: #76838f;
+}
+
+.kPadding {
+    margin: 3.125rem;
+    color: blue;
+}
+
+.aa-container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.content-wrapper {
+    margin-top: 120px;
+}
+
+.aa-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aa-cards-center {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
