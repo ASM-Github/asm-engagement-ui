@@ -1,8 +1,9 @@
 import React from 'react';
+import { format } from 'date-fns';
 
 function UserContent({ userDetails }) {
 
-    const { email, user_type } = userDetails;
+    const { email, user_type, created_date } = userDetails;
     const nameIcon = email.slice(0, 1);
 
     return (
@@ -16,7 +17,12 @@ function UserContent({ userDetails }) {
             <div className="d-flex justify-content-center">
                 <span className="badge bg-dark mt-2">{user_type}</span>
             </div>
-            <small></small>
+            <div className="d-flex justify-content-center mt-3">
+                <span className="text-black-50">Created Date : {format(new Date(created_date), 'PPPP')}</span>
+            </div>
+            <div className="d-flex justify-content-center mt-2">
+                <button type="button" className="btn btn-secondary">Edit Auth</button>
+            </div>
         </div>
     )
 }

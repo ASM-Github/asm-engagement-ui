@@ -12,13 +12,13 @@ export const useUser = (userId) => {
         () => getUserById(userId))
 };
 
-const getViewUser = async (userID) => {
-    const { data } = await http.get(`/users/view/${userID}`);
+const getUser = async (userId) => {
+    const { data } = await http.get(`/users/view/${userId}`);
     return data;
 };
 
-export const useViewUser = (userID) => {
+export const useViewUser = (userId) => {
 
-    return useQuery(['view-user', getViewUser],
-        () => getViewUser(userID))
+    return useQuery(['view-user', userId],
+        () => getUser(userId))
 };

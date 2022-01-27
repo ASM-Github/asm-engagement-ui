@@ -1,12 +1,12 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import UserModalContent from './UserContent'
-import { useViewUser } from '../../../../../hooks/useUser'
+import { useUser } from '../../../../../hooks/useUser'
 
 function UserModal({ modal, setModal, user_id }) {
 
     const handleClose = () => setModal(false);
-    const { data: userDetails, isLoading, isError } = useViewUser(user_id);
+    const { data: userDetails, isLoading, isError } = useUser(user_id);
     return (
         <>
 

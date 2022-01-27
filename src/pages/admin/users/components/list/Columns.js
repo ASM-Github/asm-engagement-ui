@@ -54,16 +54,16 @@ export const COLUMNS = [
 
             return (
                 <>
-                    <button type="button" className="btn btn-secondary" onClick={() => setModal(true)}>
-                        <AiOutlineInfoCircle className="text-primary" />
-                    </button>
-
                     <UserModal
                         modal={modal}
                         setModal={setModal}
                         user_id={value}
                         user_type={row.original.user_type}
                     />
+                    <button type="button" className="btn btn-secondary" onClick={() => setModal(true)}>
+                        <AiOutlineInfoCircle className="text-primary" />
+                    </button>
+
                 </>
             )
         }

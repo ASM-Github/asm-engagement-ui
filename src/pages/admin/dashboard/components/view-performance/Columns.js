@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AiOutlineInfoCircle } from 'react-icons/ai'
 import '../../../../../assets/css/alpha-icons.css'
-import Badge from '../../../../../utils/badgeByRole'
+import { BadgeByUserType } from '../../../../../utils/badgeByRole'
 
 export const COLUMNS = [
 
@@ -30,7 +30,7 @@ export const COLUMNS = [
         accessor: 'fellow_id.role',
         Cell: ({ value }) => {
             return (
-                <span className={Badge(value)}>
+                <span className={BadgeByUserType(value)}>
                     {value}
                 </span>
             )
@@ -57,6 +57,7 @@ export const COLUMNS = [
                     onClick={() => navigate(PATHNAME)}>
                     <AiOutlineInfoCircle className="text-primary" />
                 </button>
+
             )
         }
     }
