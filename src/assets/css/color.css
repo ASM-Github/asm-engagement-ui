@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #002060;
+    --success-color: #00c000;
+    --danger-color: #fc0a16;
+    --warning-color: #ffb344;
+    --primary-color-2: #e5e2fe;
+    --success-color-2: #b3ffd5;
+    --warning-color-2: #fcf3d0;
+    --danger-color-2: #fabfc2;
+    --icon-size: 1.25rem;
+    --asm-grey: #f1f1f1;
+}
+
+.asm-bg-primary-2 {
+    background-color: var(--primary-color-2) !important;
+}
+
+.asm-bg-info-2 {
+    background-color: var(--warning-color-2) !important;
+}
+
+.asm-secondary {
+    color: #F56900;
+}
+
+.asm-btn-primary {
+    color: var(--primary-color);
+    background-color: var(--primary-color-2) !important;
+    border-color: var(--primary-color-2);
+}

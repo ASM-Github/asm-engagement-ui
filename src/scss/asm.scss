@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+//$primary: #503E9D;
+//F8F5FF
+$primary : #7239EA;
+$light : #F5F8FA;
+$secondary :#f5f8fa;//E4E6EF;
+$text-muted : #a1a5b7;
+//card
+$card-spacer-y: 1.25rem;
+$card-spacer-x: 1.5rem; 
+$card-border-radius:  0.5rem;
+//table
+$table-cell-padding-y: 0.75rem;
+$table-cell-padding-x: 1.5rem;
+$table-color: #5c757d;
+//heading
+$h3-font-size: 1.275rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.075rem;
+$h6-font-size: 0.938rem;
+
+$body-bg : #eef3f7;//#E4E9F7;
+
+$font-weight-light: 300;
+$font-weight-bolder: 600;
+$font-weight-bold : 500;
+$font-weight-base: 400;
+$font-family-sans-serif: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

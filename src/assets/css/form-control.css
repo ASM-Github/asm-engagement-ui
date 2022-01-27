@@ -1,0 +1,30 @@
+.asm-form-control:focus {
+    border-color: #FF0000;
+    box-shadow: none !important;
+}
+
+.asm-form-control::placeholder {
+    font-weight: 500 !important;
+}
+
+.asm-input {
+    border: none;
+    background-color: var(--bs-secondary);
+    padding: 5px 0px 5px 5px;
+    border-radius: 5px;
+}
+
+.asm-input:focus {
+    border-color: none;
+}
+
+.asm-nofocus {
+    border: none;
+    background-color: var(--bs-secondary);
+    padding: 5px 0px 5px 5px;
+    border-radius: 5px;
+}
+
+.asm-nofocus:focus {
+    border-color: aliceblue;
+}

@@ -1,0 +1,43 @@
+.asm-alpha-icons {
+    height: 2rem;
+    width: 2rem;
+    background: aliceblue !important;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0.25rem;
+    border-radius: 50%;
+}
+
+.asm-alpha-icons-4 {
+    height: 4rem;
+    width: 4rem;
+    background: aliceblue !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.asm-alpha-icons-6 {
+    height: 6rem;
+    width: 6rem;
+    background: aliceblue !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 3.5rem;
+}
+
+.asm-alpha-icons-2 {
+    height: 2.3rem;
+    width: 2.3rem;
+    background: aliceblue !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1rem;
+}

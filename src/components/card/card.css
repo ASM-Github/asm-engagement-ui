@@ -9,19 +9,23 @@
 }
 
 .aa-cards-title {
-    font-size: 1.125rem;
+    font-size: 18px;
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: 800;
+    line-height: 22px;
+    margin-bottom: 2px;
+    font-style: normal;
 }
 
 .aa-cards-body {
-    padding: 1.5rem;
+    padding: 40px;
 }
 
 .aa-cards-desc {
-    font-size: 0.812rem;
+    font-size: 14px;
     font-weight: 400;
     color: #76838f;
+    margin: 0.8rem 0 0.5rem 0;
 }
 
 .kPadding {

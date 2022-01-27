@@ -1,0 +1,41 @@
+.cs-event-icon {
+    background-color: var(--inverse-danger-color);
+    color: var(--danger-color);
+}
+
+.cs-fellow-icon {
+    padding: 0.25em 0.25em 0.25em 0.25em;
+    border-radius: 50%;
+    font-size: 3rem;
+    background-color: var(--inverse-primary-color);
+    color: var(--primary-color);
+}
+
+
+.cs-icon-user {
+    font-size: 3rem;
+}
+
+.cs-table-header {
+    background-color: var(--inverse-primary-color);
+    color: var(--primary-color);
+}
+
+.cs-progressbar-secondary {
+    background-color: var(--inverse-primary-color) !important;
+}
+
+.cs-success-icon {
+    font-size: 8rem;
+    color: #ffffff;
+    margin: 2rem 2rem;
+}
+
+.cs-bg-success {
+    background-color: var(--success-color);
+}
+
+.cs-mdevent {
+    font-size: 1.5rem;
+    color: var(--danger-color);
+}

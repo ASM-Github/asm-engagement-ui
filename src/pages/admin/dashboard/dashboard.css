@@ -1,0 +1,64 @@
+.cs-card-title {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.cs-icon-card-primary {
+    font-size: var(--icon-size);
+    background-color: var(--inverse-primary-color);
+    color: var(--primary-color);
+}
+
+.cs-icon-card-secondary {
+    font-size: var(--icon-size);
+    background-color: var(--inverse-success-color);
+    color: var(--success-color);
+}
+
+.cs-icon-card-danger {
+    font-size: var(--icon-size);
+    background-color: var(--inverse-danger-color);
+    color: var(--danger-color);
+}
+
+.cs-icon-card-warning {
+    font-size: var(--icon-size);
+    background-color: var(--inverse-warning-color);
+    color: var(--warning-color);
+}
+
+.cs-count {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cs-subtitle {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.cs-warp-content {
+    padding: 20px 25px 20px;
+}
+
+.cs-grid-mb {
+    margin-bottom: 1.5rem;
+}
+
+.cs-chart-legend {
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+
+.cs-circle {
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.1rem 0.5rem 0rem 0.5rem;
+}
+
+.cs-card-body {
+    padding: 40px;
+}
